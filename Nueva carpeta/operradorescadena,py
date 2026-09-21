@@ -1,0 +1,18 @@
+print(" cadena 1 " + " cadena 2 ")
+nom1 = "Jaun David"
+nom2 = "Alexander"
+print(nom1 + " y " + nom2 + ": Son compañeros")
+
+nombre = input("¿Me puedes dar tu nombre por favor? ")
+apellido = input("¿Me puedes dar tu apellido por favor? ")
+print("Gracias. ")
+print("\nTu nombre es " + nombre + " " + apellido + ".")
+
+print(" chelo," * 5)
+print(4 * " chelo,")
+print(7 * " chelo, ")
+
+print("+" + 30 * "-" + "+")
+print(("|" + " " * 30 + "|\n") * 5, end="")
+print("+" + 30 * "-" + "+")
+
