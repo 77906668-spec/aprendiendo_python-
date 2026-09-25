@@ -1,0 +1,16 @@
+numbre1 = int(50.56)
+numbre2 = float(40)
+numbre3 = 25.68
+print ( str(numbre1), " " ,str(numbre2), " " ,str (numbre3))
+
+# ingresa un valor flotante para la variable a aquí
+numero1 = float(input("Ingrese el primer numero flotante: "))
+# ingresa un valor flotante para la variable b aquí
+numero2 = float(input("Ingrese el segundo numero flotante: "))
+
+# mostrar el resultado de la suma aquí
+# mostrar el resultado de la resta aquí
+# mostrar el resultado de la multiplicación aquí
+# mostrar el resultado de la división aquí
+
+
