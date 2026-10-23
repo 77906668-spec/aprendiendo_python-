@@ -1,0 +1,49 @@
+# # haciendo usos de las repuestas
+nm_leones = 15
+nm_tigreas = 10
+respuesta = nm_leones >= nm_tigreas
+print(respuesta)
+# # LAB Variables - Preguntas y Respustas
+n = int(input("Ingrese un número: "))
+print(n < 100)
+print(n >= 100)
+# # condicionales y ejecucion condicional
+# # ejecucion condiconal: la sentencia if
+contador = 122
+if contador >= 120:
+    print("Dormir y soñar")
+
+contador = 100
+if contador >= 120:
+    print("preparar la cama")
+    print("tomar una ducha")
+    print("dormir y soñar")
+print("alimentar perros y ovejas")
+
+clima = 39
+if clima < 20:
+    print("salir al parque")
+else:
+    print("quedarse en casa sombreado")
+
+print("tomar el almuerzo")
+
+# sentencias if-else anidadas
+calificacion_restaurant = 5
+cantidad_boletos = 0
+clima = float(input("Ingrese el clima actual en grados celsius: "))
+print("El clima actual es:", clima, "°C")
+if clima < 20:
+    print("salir al parque")
+    if calificacion_restaurant >= 8:
+        print("almorzaremos alli")
+    else:
+        print("comeremos sandwich")    
+else:
+    print("iremos al cine")
+    if cantidad_boletos > 0:
+        print("veremos una pelicula")
+    else:
+        print("iremos de shopping al real plaza")
+
+print("volver a casa")
